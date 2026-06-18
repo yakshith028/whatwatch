@@ -157,4 +157,5 @@ app.get('/surprise', async (req, res) => {
 // ── Health check ─────────────────────────────────────────────────────────────
 app.get('/', (req, res) => res.json({ status: 'ok', service: 'WhatWatch API' }));
 
-app.listen(PORT, () => console.log(`🎬 WhatWatch API running on port ${PORT}`));
+//app.listen(PORT, () => console.log(`🎬 WhatWatch API running on port ${PORT}`));
+module.exports = app;
